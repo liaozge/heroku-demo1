@@ -17,4 +17,5 @@ jobs:
     - name: Run a multi-line script
       run: |
         npm install
-        node index.js
+        node index.js &
+        echo start......
